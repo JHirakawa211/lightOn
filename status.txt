@@ -1,0 +1,8 @@
+webgpio.service
+	  Loaded: loaded (/etc/systemd/system/webgpio.service; enabled)
+	  Active: active (running) since Thu, 16 Jul 2015 00:26:30 -0700; 7s ago
+	Main PID: 1722 (node)
+	  CGroup: name=systemd:/system/webgpio.service
+		  └ 1722 /opt/node/bin/node /home/pi/webgpio.js
+
+Jul 16 00:26:32 raspberrypi node-webgpio[1722]: Server running at http://192.../
